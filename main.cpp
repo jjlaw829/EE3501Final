@@ -85,10 +85,10 @@ void normal(){
         { 
             hr = 12;
             if (ampm == "AM"){
-                clk.am_pm() = "PM";
+                ampm = "PM";
             }
             else {
-                clk.am_pm() = "AM";
+                ampm = "AM";
             }
          }
     }
